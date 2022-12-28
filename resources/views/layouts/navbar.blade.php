@@ -13,10 +13,11 @@
         <img src="https://pixlr.com/studio/template/6264364c-b8cc-4f4f-92d8-28c69a2b756w/thumbnail.webp"
             alt="" height="30px" width="30px">
         <div>
-            <h4>
+         <a href="{{ route('logout') }}">Logout</a>
+            {{-- <h4>
                 John Doe
             </h4>
-            <small>Admin</small>
+            <small>Admin</small> --}}
         </div>
     </div>
 </header>
